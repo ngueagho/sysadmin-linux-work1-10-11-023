@@ -1,0 +1,23 @@
+OKAY NOY , WE NEED TO SECURE OUR SERVER.
+
+2-   Secure the server: Update the system packages to the latest versions, configure a strong password for the root user, and disable remote root login.
+
+    Update the system packages to the latest versions:
+        when you update your frequently update the packages to the latest version, your a sheltered from virus(depending of the system),
+            you have somme problem on your system that is directly corrected, you have a new versions of  somme application,
+            so i advise you to do it frequently.
+
+            to update your system, on ubuntu, that is a linus version system, you should type on your terminal:
+                a- sudo apt update
+
+
+    Configure a strong password for the root user:
+        when you work in an enterprise, you hardly secure your computer 
+            firstly, i advise you to setup a strong password, ideally with fifteen caracter.
+            it should contain:
+                - capital letter like <QSFRGH>
+                - specials caracter like <!@#$%^&*>
+                - and number like <1234567890>
+
+            to change your ubuntu password, you need to type 
+                a- sudo passwd       //and change your password.

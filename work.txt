@@ -1,0 +1,33 @@
+Exercise: Setting up a Basic Linux Server
+
+Objective: Set up a Linux server and configure basic services.
+
+Instructions:
+
+1-    Choose a Linux distribution: Select a Linux distribution and setup your work environment.
+
+2-   Secure the server: Update the system packages to the latest versions, configure a strong password for the root user, and disable remote root login.
+
+3-    Configure network settings: Set a static IP address for your server, configure DNS settings, and ensure that the server can access the internet.
+
+4-  Install essential services: Install commonly used services such as SSH (Secure Shell) for remote access, a web server (e.g., Apache or Nginx) to host a basic website, and a database server (e.g., MySQL or PostgreSQL) for data storage.
+
+5-   Configure firewall: Set up a firewall (e.g., iptables or firewalld) to restrict incoming and outgoing traffic as per your requirements. Open necessary ports for the services you have installed.
+
+6-    Test services: Verify that the installed services are working correctly. For example, ensure you can access the web server's default page from a web browser, connect to the database server, and establish an SSH session to the server.
+
+7-    Implement basic security measures: Enable automatic security updates, configure log monitoring, and set up regular system backups.
+
+8-    Document your setup: Create a detailed documentation outlining the steps you followed, configurations made, and any additional notes or observations.
+
+Remember to research and refer to official documentation and online resources specific to your chosen Linux distribution. This exercise will help you gain hands-on experience with setting up a basic Linux server and familiarize yourself with fundamental system administration tasks.
+
+
+
+Good luck, and feel free to ask any questions along the way!
+
+
+For any questions, 
++237652091243 
+expert237237@gmail.com/landry.ngueagho@facsciences-uy1.cm
+[ROBERTO]

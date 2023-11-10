@@ -1,0 +1,34 @@
+OKAY! TO START WE NEED TO SETUP OUR WORK ENVIRONMENT.
+
+
+i chose to work with docker, i have an image that is already buid on the dockerhub,
+this image has the name <<[robertolandry/django-roberto] this image contain a complately setup environment,
+a complately setup environnement to start !
+
+
+i will start by givin you some command to start a container with this image.
+
+    1-downloading the image.
+        to download this image on the dockerhub , you need firstly create an account on the dockerhub. after,
+            on your terminal type .
+            a- docker login //and give your login informations
+            b- docker pull robertolandry/django-roberto 
+
+    2-create a container with this image and associate it with a volume to save your work on your physical machine.
+        apart from the volume, here we will use a bind mount. to create it type:
+        a- docker run -ti --name <your-container-name> -v /your-source-path:/your-drestination-path <image-name>
+        b-docker exec -ti <your-container-name> <bash-name>
+
+        NB: all the paths specified up there are absolute.
+
+    3-VERY GOOD !!!
+        now it is ok you have complately setup your development environment.
+        so you are ready to start the work. so,
+
+
+
+GO GO GO !
+[ROBERTO]
+
+
+        
