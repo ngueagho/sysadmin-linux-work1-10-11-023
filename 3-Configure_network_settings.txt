@@ -1,0 +1,26 @@
+OKAY NOW, LET US CONFIGURE NETWORK SETTINGS
+
+3-    Configure network settings: Set a static IP address for your server, configure DNS settings, and ensure that the server can access the internet.
+
+    Set a static IP address for your server
+        to  do it you should do,
+            - vim /etc/network/interfaces
+            - in this file write :
+                    source /etc/network/interfaces.d/*
+                    #The loopback network interface
+                        auto lo
+                        iface lo inet loopback
+                    #The primary network interface
+                    #allow-hotplug enp0s3
+                    #iface enp0s3 inet dhcp
+                    #The primary network interface
+                        auto enp0s3
+                        iface enp0s3 inet static
+                        address 192.168.1.97   //set the new ip address
+                        netmask 255.255.255.0
+                        gateway 192.168.1.1
+                        dns-domain example.com
+                        dns-nameservers 1.1.1.1
+            - save and exit
+            - systemctl restart networking
+            - the try to ping and ip address

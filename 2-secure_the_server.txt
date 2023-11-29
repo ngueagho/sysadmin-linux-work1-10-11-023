@@ -1,4 +1,4 @@
-OKAY NOY , WE NEED TO SECURE OUR SERVER.
+OKAY NOW , WE NEED TO SECURE OUR SERVER.
 
 2-   Secure the server: Update the system packages to the latest versions, configure a strong password for the root user, and disable remote root login.
 
