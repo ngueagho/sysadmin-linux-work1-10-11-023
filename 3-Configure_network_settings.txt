@@ -23,4 +23,5 @@ OKAY NOW, LET US CONFIGURE NETWORK SETTINGS
                         dns-nameservers 1.1.1.1
             - save and exit
             - systemctl restart networking
+        Ensure that the server can access the internet
             - the try to ping and ip address
