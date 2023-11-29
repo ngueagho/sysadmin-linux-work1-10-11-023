@@ -21,3 +21,24 @@ OKAY NOY , WE NEED TO SECURE OUR SERVER.
 
             to change your ubuntu password, you need to type 
                 a- sudo passwd       //and change your password.
+    
+    
+    Disable remote root login
+        when you remotly administrate a server, you need a secure canal to communicate with the sever, that is why SSH protocol was created.
+            ssh is a protocol base on de client-server architecture, it use RSA(riverst-Shamir-adleman) or DSA(Digital-secure-Algorithm).
+        
+        SO desable remote root login is sommething recomentded for multiples reasons such as: 
+            - limit compromissions risk: by desable remote root login , you reduce the the risk of brute force attak, and  the possibility for a hacker to remotely take root control(it is very dangerous because the root have all the privileges)
+            - control of activity: if you use many user account , you can control all activity make on one account, every administrator will have thier account ,so it will be easy attribute resposability, and control tracability of actions mades.
+            - Principle of least privilege: it consists to agree only the privileges required to do a specific task.
+
+        ON ubuntu, to desable the remote root login:
+            -Open the SSH configuration file sshd_config with the text editor vi:
+                vi /etc/ssh/sshd_config
+            -In the line PermitRootLogin yes replace the word Yes with the word No.
+            -Save the file and exit.
+            -Restart the service.
+                Ubuntu:
+                    service ssh restart
+                CentOs:
+                    systemctl restart sshd
